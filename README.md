@@ -1,7 +1,7 @@
 # HTML-and-CSS-september-2022
 
 
-###### Course Topics 
+### Course Topics 
   - Introduction to HTML and CSS  
   - HTML Structure 
   - CSS and Typography 

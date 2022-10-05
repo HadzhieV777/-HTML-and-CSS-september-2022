@@ -1,0 +1,15 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 200px;
+}
+
+section.card {
+    display: block;
+    position: absolute;
+}

@@ -1,0 +1,38 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+    text-decoration-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 32px;
+}
+
+a {
+    border-radius: 50%;
+    color: rgb(118, 118, 118);
+}
+
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-twitter:hover {
+    color: lightskyblue;
+}
+
+.fa-google-plus:hover {
+    color: lightcoral;
+}
+
+.fa-linkedin:hover {
+    color: darkblue;
+}
+
+.fa-instagram:hover {
+    color: purple;
+}

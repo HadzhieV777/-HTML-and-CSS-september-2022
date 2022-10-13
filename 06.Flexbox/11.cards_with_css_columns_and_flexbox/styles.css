@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3,
+p,
+footer {
+    font-family: Helvetica, sans-serif;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250vh;
+    gap: 10px;
+}
+
+.masonry {
+    flex-direction: column;
+}
+
+.card {
+    box-shadow: 0px 0px 15px 5px #6D6D6D;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cards-layout .card {
+    width: 30%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.cards-layout section,
+footer {
+    padding: 15px;
+}
+
+.cards-layout footer {
+    border-top: 2px solid lightgray;
+}
+
+img {
+    width: 100%;
+}
+
+.flex {
+    flex-direction: row;
+}
+
+.flex .card section {
+    justify-self: flex-start;
+    flex-grow: 1;
+}
+
+.flex .card footer {
+    justify-self: flex-end;
+}

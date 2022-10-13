@@ -1,0 +1,31 @@
+body,
+ul,
+li {
+    display: flex;
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    display: inline-grid;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+li {
+    border: 8px solid black;
+    padding: 14px 7px;
+    margin: 10px;
+    flex-basis: 33.333333%;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    min-width: 0;
+}

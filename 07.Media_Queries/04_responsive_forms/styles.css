@@ -1,0 +1,60 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+:root {
+    --clr-white: #fff;
+    --clr-grey: grey;
+    --clr-aquamarine: aquamarine;
+  
+    --clr-primary: rgb(247, 241, 241);
+    --clr-boxshadow: rgba(0, 0, 0, 0.65);
+    --clr-button: rgb(41, 37, 37);
+  }
+
+.container {
+    margin: auto;
+    padding: 20px;
+    background-color: var(--clr-primary);
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 28px 4px var(--clr-boxshadow);
+    box-shadow: 5px 5px 28px 4px var(--clr-boxshadow);
+
+}
+
+.submit-button {
+    width: 80px;
+    height: 30px;
+    background-color: var( --clr-button);
+    color: var(--clr-white);
+    border-radius: 5px;
+}
+
+.login-title {
+    margin-left: -22px;
+    padding: 10px;
+    width: 120px;
+    height: 15px;
+    border: 1px solid var(--clr-grey);
+    font-size: 12px;
+    background-color: var(--clr-primary);
+    border-radius: 2px;
+    box-shadow: 5px 5px 28px 4px var(--clr-boxshadow);
+    -webkit-box-shadow: 5px 5px 28px 4px var(--clr-boxshadow);
+}
+
+input:focus {
+    background-color: var(--clr-aquamarine);
+
+}
+/* 
+input:focus i {
+    display: none;
+} */
+
+
+i {
+    position: fixed;
+    margin-left: 6px;
+    margin-top: 2px
+}

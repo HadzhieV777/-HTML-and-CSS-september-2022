@@ -1,0 +1,14 @@
+:root {
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-purple: purple;
+    --clr-black-borders: rgba(0, 0, 0, .08);
+    /* --clr-black-900: rgba(0, 0, 0, .3);
+    --clr-black-400: #222; */
+
+    --clr-primary: #bfc4ca;
+    --clr-primary-300: #EAEEF2;
+    --clr-primary-100: #abb0b5;
+    --clr-secondary: #68347c;
+
+}

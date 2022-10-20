@@ -7,6 +7,12 @@
 @import url("typography.css");
 @import url("buttons.css");
 @import url("header.css");
+@import url("nw-section.css");
+@import url("team-section.css");
+@import url("newsletter-section.css");
+@import url("testimonials-section.css");
+@import url("footer.css");
+
 
 
 body {

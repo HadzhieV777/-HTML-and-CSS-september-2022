@@ -1,0 +1,76 @@
+#footer {
+    padding: 1rem;
+}
+
+/* LOGO */
+
+#footer .logo__title{
+    font-size: 22px;
+    margin-top: 10px;
+    color: var(--clr-secondary);
+}
+
+#footer .logo__slogan{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+/* SITEMAP */
+
+#footer .sitemap__title{
+    font-size: 16px;
+}
+
+#footer .sitemap__list{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+#footer .sitemap__item{
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+#footer .sitemap__link {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+/* CONTACTS */
+
+#footer .contacts__container{
+    margin: 5px;
+}
+
+#footer .contacts__title{
+    font-size: 16px;
+}
+
+#footer .contacts__contact{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+#footer .contacts__contact i {
+   padding-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    #footer {
+        display: flex;
+        align-items: top;
+        justify-content: center;
+    }
+
+    #footer .logo__container{
+     width: 18rem;
+    }
+
+    #footer .sitemap__container{
+        height: 1rem;
+        width: 12rem;
+    }
+
+}

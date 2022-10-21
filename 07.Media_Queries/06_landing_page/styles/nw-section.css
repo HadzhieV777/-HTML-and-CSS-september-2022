@@ -1,0 +1,73 @@
+#need-website {
+    padding: 5px 5px;
+}
+
+#need-website i {
+    display: none;
+}
+
+#need-website .need-website__title {
+    padding-bottom: 2px;
+}
+
+#need-website .need-website__text {
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+#need-website .need-website__btn {
+    margin-top: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+#need-website .need-website__btn:hover {
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+}
+
+@media screen and (min-width: 768px) {
+    #need-website {
+        display: flex;
+        width: 60%;
+    }
+
+    #need-website .need-website__text {
+        letter-spacing: 1px;
+        line-height: 1.3;
+    }
+
+    #need-website i {
+        display: inline-flex;
+        font-size: 7em;
+        align-items: center;
+        padding-left: 15px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #need-website {
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+
+    #need-website .need-website__title {
+        padding-bottom: 7px;
+        font-size: 35px;
+        letter-spacing: 0.5px;
+    }
+
+    #need-website .need-website__text {
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #need-website .need-website__btn {
+        margin-top: 10px;
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+
+}

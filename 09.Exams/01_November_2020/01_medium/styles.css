@@ -1,0 +1,93 @@
+:root {
+    --clr-black-heading: rgb(41, 41, 41);
+    --clr-gray-text: rgb(117, 117, 117);
+    --clr-green-btn: #34b287;
+    --clr-white: #fff;
+    --clr-blue-mark: rgb(207, 241, 240);
+}
+
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: var(--clr-gray-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    color: var(--clr-black-heading);
+}
+
+
+.article {
+    display: grid;
+    margin: 0 auto;
+    width: 60vh;
+    gap: .1rem;
+}
+
+.article .title-block {
+    position: relative;
+    text-align: left;
+}
+
+.article .main-title {
+    margin: 0.2rem;
+    padding: 0;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.article .slogan {
+    margin: 0.2rem;
+    padding: 0;
+    font-size: .9rem;
+    font-weight: 100;
+}
+
+
+.article .cta-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.article .cta-block .btn-wrapper {
+    width: 50%;
+}
+
+.article .cta-block .cta-btn {
+    background-color: var(--clr-green-btn);
+    border: none;
+    padding: .6rem 2.6rem;
+    color: var(--clr-white);
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.article .cta-block .desc-wrapper {
+    width: 50%;
+}
+
+.desc-wrapper .secondary-title {
+    font-family: Helvetica, sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+    
+}
+
+.desc-wrapper .desc {
+    padding: 0;
+    margin: 0;
+    font-size: .9rem;
+    line-height: 1.2;
+}
+
+.desc-wrapper .desc .mark{
+    background-color: var(--clr-blue-mark);
+}

@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--clr-green);
+    color: var(--clr-green-text);
+}
+
+
+.footer .resources {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer .resources .resource {
+    padding: 0 1rem;
+    color: var(--clr-green-text);
+}
+
+.footer .resources .divider {
+    height: 27px;
+    width: 2px;
+    background-color: var(--clr-green-text);
+}
+
+.footer .resource-link {
+    color: var(--clr-green-link);
+    text-decoration: none;
+    font-size: 18px;
+}

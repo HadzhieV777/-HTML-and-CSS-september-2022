@@ -1,0 +1,22 @@
+#newsletter {
+    background-color: var(--clr-white);
+    text-align: center;
+}
+
+#newsletter .title {
+    font-size: 42px;
+}
+
+#newsletter .desc {
+    font-size: 22px;
+    color: var(--clr-grey-text);
+    margin-bottom: 2rem;
+}
+#newsletter .btn {
+    border: none;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    padding: 1rem 3.5rem;
+    font-size: 22px;
+    letter-spacing: 2px;
+}

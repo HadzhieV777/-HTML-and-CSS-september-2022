@@ -1,0 +1,15 @@
+#advantages {
+    background-color: var(--clr-grey-bg);
+    color: var(--clr-white);
+}
+
+#advantages .section-grid-item .title {
+    margin-bottom: 2rem;
+
+}
+
+#advantages .section-grid-item .desc {
+    font-size: 20px;
+    color: var(--clr-grey-text);
+}
+

@@ -1,2 +1,32 @@
-@import url("reset.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("reset.css");
+@import url("variables.css");
+@import url("components/header.css");
+@import url("sections/hero.css");
+@import url("sections/features.css");
+@import url("sections/newsletter.css");
+@import url("sections/advantages.css");
+@import url("components/footer.css");
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: var(--clr-grey-dark);
+}
+
+
+/* SECTIONS */
+
+.section--full {
+    padding: 6rem 4rem;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.section-grid .section-grid-item {
+    text-align: center;
+}

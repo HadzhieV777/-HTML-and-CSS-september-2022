@@ -1,0 +1,94 @@
+@media screen and (max-width: 600px) {
+
+    /* BANNER */
+    .banner {
+        margin: 0;
+        padding: 40px 20px;
+    }
+
+    .banner h2 {
+        width: 100%;
+    }
+
+    ul.actions>li,
+    ul.actions>li>a {
+        width: 100%;
+    }
+
+    /* MAIN */
+
+    .wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrapper .inner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* FEATURES */
+
+    .features {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .feature {
+        width: 96%;
+        margin: 0px 2%;
+    }
+
+    /* SPECIAL */
+    .wrapper.style2.special .inner.narrow {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .wrapper.style2.special .inner.narrow .grid-form .form-control {
+        width: 95%;
+        margin: 0 2%;
+    }
+
+    .wrapper.style2.special .inner.narrow .grid-form .actions li {
+        width: 98%;
+    }
+
+    .wrapper.style2.special .inner.narrow .grid-form .actions li > input[type=submit]{
+        width: 95%;
+        margin: 10 10px;
+    }
+
+    .wrapper.special .inner > .major {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #message {
+        margin-bottom: 40px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        padding: 40px 0px;
+    }
+
+    .copyright {
+        margin-bottom: 0px;
+    }
+
+    .footer:before {
+        background-color: #ddd;
+        content: "";
+        height: 1px;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+    }
+
+}

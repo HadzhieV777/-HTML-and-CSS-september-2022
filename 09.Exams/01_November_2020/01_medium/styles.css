@@ -1,93 +1,87 @@
 :root {
     --clr-black-heading: rgb(41, 41, 41);
-    --clr-gray-text: rgb(117, 117, 117);
-    --clr-green-btn: #34b287;
+    --clr-gray-text: gray;
+    --clr-green-btn: #03a87c;
     --clr-white: #fff;
-    --clr-blue-mark: rgb(207, 241, 240);
+    --clr-blue-highlight: #b8fae8;
 }
 
 
 
 body {
-    font-family: Helvetica, sans-serif;
-    color: var(--clr-gray-text);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-    font-family: Georgia, serif;
-    color: var(--clr-black-heading);
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-.article {
-    display: grid;
-    margin: 0 auto;
-    width: 60vh;
-    gap: .1rem;
+.container {
+    margin: 2% 15%;
 }
 
-.article .title-block {
-    position: relative;
-    text-align: left;
+h1 {
+    font-size: 55px;
 }
 
-.article .main-title {
-    margin: 0.2rem;
-    padding: 0;
-    font-size: 3.2rem;
-    font-weight: 600;
+p {
+    color: var(--clr-gray-text);
 }
 
-.article .slogan {
-    margin: 0.2rem;
-    padding: 0;
-    font-size: .9rem;
-    font-weight: 100;
+.p-heading {
+    margin-top: -35px
 }
 
-
-.article .cta-block {
+.main {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
-.article .cta-block .btn-wrapper {
-    width: 50%;
-}
-
-.article .cta-block .cta-btn {
+.main button {
+    position: absolute;
+    padding: 12px 50px;
     background-color: var(--clr-green-btn);
-    border: none;
-    padding: .6rem 2.6rem;
-    color: var(--clr-white);
+    border: 1px solid var(--clr-green-btn);
+    border-radius: 4px;;
+    color:var(--clr-white);
     font-weight: bold;
-    font-size: .8rem;
+    bottom: 0px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-.article .cta-block .desc-wrapper {
-    width: 50%;
+.button-part {
+    width: 20%;
+    position: relative;
 }
 
-.desc-wrapper .secondary-title {
-    font-family: Helvetica, sans-serif;
-    font-size: .9rem;
-    font-weight: bold;
-    
+.desc {
+    width: 30%;
+    margin-left:130px
 }
 
-.desc-wrapper .desc {
-    padding: 0;
-    margin: 0;
-    font-size: .9rem;
-    line-height: 1.2;
+.desc p {
+    margin-top:30px;
+    font-size:16px;
 }
 
-.desc-wrapper .desc .mark{
-    background-color: var(--clr-blue-mark);
+
+.sec-hr {
+    position: relative;
+    align-items: center;
+}
+
+.hr {
+    width:300px;
+    align-self: center;
+    margin-left: 18%;
+    margin-top:40px;
+}
+
+.highlight {
+    background-color: var(--clr-blue-highlight);
 }

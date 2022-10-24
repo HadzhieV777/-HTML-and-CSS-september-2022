@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 50px;
+    gap: 2rem;
+}
+
+.header .logo {
+    width: 7rem;
+}
+
+.header .navigation {
+    margin-left: auto;
+    margin-right: 1.2rem;
+}
+
+.header .navigation .navigation__container {
+    display: flex;
+    gap: .8rem;
+    text-align: center;
+}
+
+.navigation .navigation__link {
+    text-decoration: none;
+    color: var(--clr-primary);
+    font-weight: 500;
+    font-size: .9rem;
+}

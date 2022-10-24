@@ -1,0 +1,22 @@
+:root {
+    --clr-primary: #54566b;
+    
+    --clr-green: #4ad580;
+    --clr-green-main: rgb(69, 151, 77);
+    --clr-green-dark: #009330;
+    
+    --clr-blue: #6199cd;
+    --clr-blue-main: rgb(91, 115, 138);
+    --clr-blue-dark: #3f617f;
+    
+    --clr-purple: #8b7ce0;
+    --clr-purple-main: rgb(69, 66, 159);
+    --clr-purple-dark: #3d299f;
+    --clr-purple-btn: #9a5dc6;
+
+    --clr-grey-p: #e6e6e6;
+    --clr-white-p: #f8f8f8;
+
+    --clr-white: #fff;
+    --clr-black-border: rgba(0, 0, 0, 0.75);
+}

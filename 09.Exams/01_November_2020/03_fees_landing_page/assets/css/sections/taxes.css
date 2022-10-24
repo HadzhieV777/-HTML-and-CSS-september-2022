@@ -1,0 +1,22 @@
+#taxes {
+    background-color: var(--clr-primary);
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#taxes .taxes__background {
+    padding: 3rem 1.2rem;
+    margin-left: -5.1rem;
+    display: flex;
+}
+
+#taxes .taxes__heading {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 9rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--clr-white);
+}

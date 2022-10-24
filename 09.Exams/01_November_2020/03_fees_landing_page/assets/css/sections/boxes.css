@@ -1,0 +1,99 @@
+#boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10%;
+    margin-top: -11rem;
+    gap: 1.2rem;
+    width: 77%;
+}
+
+#boxes .box {
+    border-radius: 10px;
+    background-color: var(--clr-white);
+    z-index: 1;
+    width: 27vw;
+    height: 29vh;
+    box-shadow: .2rem .4rem .7rem -.1rem var(--clr-black-border);
+}
+
+#boxes .box__wrapper {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+#boxes .box .box__title {
+    color: var(--clr-primary);
+    font-size: 1.2rem;
+    padding: 1rem .1rem;
+}
+
+#boxes .box .box__paragraph {
+    color: var(--clr-primary);
+    font-size: .8rem;
+    padding-top: .2rem;
+    padding-bottom: .5rem;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    line-height: 1.2;
+}
+
+#boxes .box__price-section {
+    height: 30%;
+}
+
+#green {
+    background: var(--clr-green-main);
+    background: linear-gradient(90deg, var(--clr-green-dark) 35%, var(--clr-green) 100%);
+    flex-direction: column;
+}
+
+#blue {
+    background: var(--clr-blue-main);
+    background: linear-gradient(90deg, var(--clr-blue-dark) 35%, var(--clr-blue) 100%);
+}
+
+#purple {
+    background: var(--clr-purple-main);
+    background: linear-gradient(90deg, var(--clr-purple-dark) 35%, var(--clr-purple) 100%);
+}
+
+#green,
+#blue,
+#purple {
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+
+#boxes .box__btn {
+    border-radius: 1.2rem;
+    padding: .6rem 1.4rem;
+    text-transform: capitalize;
+    background-color: var(--clr-purple-btn);
+    border: none;
+    font-size: .7rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+
+#boxes .box__price-section .price__title {
+    font-size: 1rem;
+}
+
+#boxes .box__price-section .price__desc {
+    font-size: .7rem;
+}

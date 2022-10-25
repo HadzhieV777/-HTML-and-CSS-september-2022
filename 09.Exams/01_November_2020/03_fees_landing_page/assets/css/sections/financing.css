@@ -1,0 +1,21 @@
+#financing {
+    align-items: center;
+    justify-items: center;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+#financing .content-wrapper {
+    width: 65%;
+}
+
+#financing .financing__img {
+    width: 28%;
+    height: 20%;
+}
+
+#financing .financing__paragraph{
+    margin-bottom: 1rem;
+}

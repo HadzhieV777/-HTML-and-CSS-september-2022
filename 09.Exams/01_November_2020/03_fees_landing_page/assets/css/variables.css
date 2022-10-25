@@ -19,4 +19,7 @@
 
     --clr-white: #fff;
     --clr-black-border: rgba(0, 0, 0, 0.75);
+
+    --clr-gray-list: #e1e2e6;
+    --clr-grey: grey;
 }

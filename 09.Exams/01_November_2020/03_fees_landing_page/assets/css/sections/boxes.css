@@ -92,8 +92,61 @@
 
 #boxes .box__price-section .price__title {
     font-size: 1rem;
+    margin: 0;
 }
 
 #boxes .box__price-section .price__desc {
     font-size: .7rem;
+    margin: 0;
+}
+
+#boxes .box__price-section .price__separator {
+    height: 75%;
+    content: '';
+    width: .1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    background-color: var(--clr-white);
+}
+
+@media screen and (max-width: 768px) {
+    #boxes .box .box__title {
+        font-size: .9rem;
+    }
+    
+    #boxes .box .box__paragraph {
+        font-size: .7rem;
+    }
+
+    #boxes .box__price-section .price__title {
+        font-size: 1rem;
+
+    }
+    
+    #boxes .box__price-section .price__desc {
+        font-size: .6rem;
+
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    #boxes .box .box__title {
+        font-size: 1.7rem;
+    }
+    
+    #boxes .box .box__paragraph {
+        font-size: 1.3rem;
+    }
+
+    #boxes .box__price-section .price__title {
+        font-size: 1.7rem;
+
+    }
+    
+    #boxes .box__price-section .price__desc {
+        font-size: 1rem;
+
+    }
+
 }

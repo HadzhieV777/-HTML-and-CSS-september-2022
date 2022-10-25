@@ -1,0 +1,36 @@
+.footer-upper{
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter {
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+.newsletter p:nth-child(1){
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.newsletter p:nth-child(2){
+    margin-top: 10px;
+}
+
+.subscribe button{
+    border: 5px solid var(--clr-white);
+    padding: 10px 25px;
+    margin-right: 25px;;
+    background: none;
+    color: var(--clr-white);
+    font-size: 1.5em;
+}
+
+.footer-lower {
+    padding: 25px;
+    text-align: center;
+}

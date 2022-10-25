@@ -1,0 +1,13 @@
+:root {
+    --clr-primary: #c09a2f;
+    --clr-primary-dark: #97690a;
+    --clr-gold-text: #fdb110;
+    --clr-gold-hover: hsl(45.8, 83.8%, 38.6%);
+    --clr-gray-text: #4f5774;
+    --clr-white: #fff;
+    --clr-white-text: #f9ffff;
+    --clr-black-bg: rgba(0, 0, 0, 0.5);
+    --gr-main: linear-gradient(90deg,
+            rgba(150, 103, 11, 1) 0%,
+            rgba(208, 172, 60, 1) 100%);
+}

@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 4rem;
+    background-color: var(--clr-primary);
+}
+
+.footer .footer__content {
+    padding: 1.4rem 0;
+    color: var(--clr-grey);
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer .footer__content {
+        padding: 2rem 0;
+    }
+}

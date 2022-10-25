@@ -1,0 +1,135 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --clr-grey-background: #DCDCDC;
+    --clr-grey-text: #767373;
+    --clr-grey-links: #9AA8C5;
+    --clr-white-form: #fafafa;
+    --clr-white: #fff;
+    --clr-black-btn: #111;
+    --clr-black-shadow: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background: var(--clr-grey-background);
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem auto;
+    width: 50%;
+    height: 500px;
+    background-color: var(--clr-white-form);
+    border-radius: 5px;
+    box-shadow: 4px 8px 7px -4px var(--clr-black-shadow);
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6615780101102942) 100%, rgba(0, 0, 0, 0.7960317916228992) 100%), url('image/cover.jpg');
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    color: var(--clr-white);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.info-section img {
+    object-fit: fill;
+}
+
+.info-section .trademark {
+    align-self: flex-start;
+    margin: 25px;
+    font-weight: 900;
+}
+
+.info-section .info__title {
+    font-size: 2.2em;
+}
+
+.info-section .info__slogan {
+    font-size: 1.5em;
+}
+
+
+.info-section .info__title,
+.info-section .info__slogan {
+    margin: 0px;
+    font-weight: 100;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.info-section i {
+    padding: 10px;
+}
+
+.info-section .info__icons{
+    margin-bottom: 30px;
+}
+
+.inputs-section {
+    padding: 40px;
+}
+
+.inputs-section label{
+    text-transform: uppercase;
+    color: var(--clr-grey-text);
+    font-size: 0.9em;
+    padding-bottom: 0.9em;
+    width: 100%;
+    display: inline-block;
+}
+
+.inputs-section input{
+    color:  var(--clr-grey-text);
+    border: none;
+    border-bottom: 1px solid var(--clr-grey-background);
+    margin-bottom: 0.9rem;
+    font-size: 17px;
+    width: 100%;
+    padding-bottom: 0.3em;
+    padding-left: 10px;
+}
+
+#password, #rep-password {
+    font-weight: bold;
+}
+
+.inputs-section input[type="submit"]{
+    color: var(--clr-white);
+    background-color: var(--clr-black-btn);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-transform: uppercase;
+    width: 40%;
+    font-weight: 500;
+}
+
+.inputs-section>div:nth-child(5) {
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.inputs-section>div:nth-child(5)>p {
+    display: inline;
+    padding: 10px;
+}
+.inputs-section>div:nth-child(5)>p>a {
+    color: var(--clr-grey-links);
+    font-weight: 600;
+}

@@ -7,12 +7,69 @@
 
 @import url("sections/taxes.css");
 @import url("sections/boxes.css");
+@import url("sections/comparison.css");
+@import url("sections/financing.css");
+
+@import url("components/footer.css");
 
 
 body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
+}
+
+
+#comparison .comparison__heading,
+#financing .financing__heading {
+    color: var(--clr-primary);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+
+#comparison .comparison__desc,
+#financing .financing__paragraph {
+    color: var(--clr-primary);
+    line-height: 1.2;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #comparison .comparison__heading,
+    #financing .financing__heading {
+        font-size: .9rem;
+
+    }
+
+    #comparison .comparison__desc,
+    #financing .financing__paragraph {
+        font-size: .8rem;
+        margin-bottom: .8rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    #comparison .comparison__heading,
+    #financing .financing__heading {
+        font-size: 1.6rem;
+    }
+
+    #comparison .comparison__desc,
+    #financing .financing__paragraph {
+        font-size: 1.5rem;
+    }
+
 }

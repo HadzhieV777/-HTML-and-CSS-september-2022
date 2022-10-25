@@ -1,0 +1,108 @@
+#comparison {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#comparison .comparison__heading{
+    margin-top: 4.7rem;
+
+}
+
+#comparison .comparison__desc {
+    margin-bottom: 2rem;
+}
+
+#comparison .benefits-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 1rem;
+    margin-bottom: 4.7rem;
+}
+
+#comparison .benefit-gray,
+#comparison .benefit-white {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .6rem;
+    margin-left: 1rem;
+}
+
+#comparison .img-container {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-left: 3rem;
+}
+
+#comparison .benefit-gray {
+    background-color: var(--clr-gray-list)
+}
+
+#comparison .benefit-white {
+    background-color: var(--clr-white)
+}
+
+#comparison .benefit__image {
+    width: 1.1rem;
+}
+
+#comparison .benefit__desc {
+    padding: .7rem;
+    color: var(--clr-primary);
+}
+
+
+@media screen and (max-width: 768px) {
+    #comparison .comparison__heading {
+        font-size: .9rem;
+
+    }
+
+    #comparison .comparison__desc {
+        margin-bottom: .8rem;
+    }
+
+    #comparison .benefit-gray,
+    #comparison .benefit-white {
+        padding: .6rem;
+        margin-left: .1rem;
+    }
+
+    #comparison .benefit__image {
+        width: .8rem;
+    }
+
+    #comparison .benefit__desc {
+        padding: .1rem;
+        font-size: .7rem
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    #comparison .comparison__heading {
+        font-size: 1.6rem;
+    }
+
+    #comparison .comparison__desc {
+        font-size: 1.5rem;
+    }
+
+    #comparison .benefit-gray,
+    #comparison .benefit-white {
+        padding: 1.4rem;
+
+    }
+
+    #comparison .benefit__image {
+        width: 1.2rem;
+    }
+
+    #comparison .benefit__desc {
+        padding: .1rem;
+        font-size: 1.4rem
+    }
+
+}

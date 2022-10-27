@@ -1,0 +1,14 @@
+:root {
+    --clr-primary: #008cba;
+    --clr-secondary: #393f43;
+    --clr-secondary-components: #454545;
+    --clr-blue-nl: #6bbfff;
+    --clr-grey-section: #e1e4e6;
+    --clr-grey-form-input:#545a5e;
+    --clr-grey-text: #d6d0c4;
+    --clr-gray-footer: #2f3539;
+    --clr-gray-copyright: #1e262c;
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-black-opacity: rgba(7, 7, 7, 0.469);
+}

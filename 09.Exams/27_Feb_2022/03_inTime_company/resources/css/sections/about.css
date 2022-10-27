@@ -1,0 +1,34 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 83%;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .desc {
+    font-size: 1rem;
+    letter-spacing: 1;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+#about .underliner {
+    background-color: var(--clr-primary);
+}
+
+#about .section-btn {
+    border-radius: 1.5rem;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        font-size: 20px
+    }
+
+    #about .desc {
+        font-size: 1.4rem;
+    }
+}

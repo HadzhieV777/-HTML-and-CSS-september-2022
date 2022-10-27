@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-green: #a4c539;
+    --clr-gray: #bbbbbb;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.section .heading-container {
+    margin-top: 1rem;
+}
+
+
+.section .heading {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.section .heading .green {
+    color: var(--clr-green);
+    font-weight: 500;
+}
+
+.section .slogan {
+    font-size: 1.2rem;
+    margin-top: 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+.services-list {
+    list-style-type: none;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.single-service .service-img {
+    width: 28vw;
+}
+
+.service-text {
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.service-text {
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.service-text .service-title {
+    font-size: 1rem
+}
+
+.service-text .service-desc {
+    font-size: .7rem;
+    padding-bottom: .7rem;
+}
+
+.service-text .service-btn {
+    border-radius: 2rem;
+    border: none;
+    color: var(--clr-white);
+    background-color: var(--clr-green);
+    padding: .7rem 1rem;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .service-text .service-title {
+        font-size: 1.4rem
+    }
+    
+    .service-text .service-desc {
+        font-size: 1.2rem
+    }
+
+    .service-text .service-btn {
+        padding: .9rem 1.1rem;
+        font-size: 1.2rem;
+    }
+
+    .section .heading {
+        font-size: 3rem;
+    }
+
+    .section .slogan {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-text .service-btn {
+
+        padding: .5rem .8rem;
+        font-size: .8rem;
+    }
+
+    .section .heading {
+        font-size: 2.2rem;
+    }
+
+    .section .slogan {
+        font-size: .9rem;
+    }
+}

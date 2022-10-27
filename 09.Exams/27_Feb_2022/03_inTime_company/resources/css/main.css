@@ -1,0 +1,44 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+@import url("reset.css");
+@import url("variables.css");
+
+@import url("components/header.css");
+
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/services.css");
+@import url("sections/newsletter.css");
+
+@import url("components/footer.css");
+
+
+
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+.header .blue,
+.footer .blue {
+    color: var(--clr-primary);
+    font-weight: 500;
+}
+
+.section .title {
+    margin-top: 1.5rem;
+}
+
+.section .underliner {
+    width: 8%;
+    height: 3px;
+    margin-bottom: 1rem;
+}
+
+#about .section-btn,
+#services .service-btn {
+    border: none;
+    color: var(--clr-white);
+    background-color: var(--clr-secondary-components);
+    padding: .4rem 1rem;
+    margin-bottom: 2rem;
+}

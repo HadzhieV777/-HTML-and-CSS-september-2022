@@ -1,1 +1,80 @@
-/* TODO */
+@media screen and (max-width: 600px) {
+
+    #main-menu,
+    #main-menu,
+    main,
+    #left-aside,
+    #news,
+    footer {
+        display: flex;
+    }
+
+    #main-menu,
+    #main-menu ul,
+    main,
+    #news,
+    footer {
+        flex-direction: column;
+    }
+
+    #main-menu,
+    main,
+    #left-aside {
+        align-items: center;
+
+    }
+
+
+    #main-menu {
+        justify-content: center;
+    }
+
+    #main-menu img {
+        padding-top: .3rem;
+        max-width: 12, 5rem;
+    }
+
+    #main-menu ul {
+        text-align: center;
+        gap: .4rem
+    }
+
+    #main-menu ul li {
+        border: 1px solid grey;
+    }
+
+
+    #left-aside {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5rem
+    }
+
+    #left-aside article {
+        border-bottom: unset;
+    }
+
+    #news {
+        width: unset;
+    }
+
+    #news article {
+        width: 100%
+    }
+
+    #news article h3 {
+        margin: 0;
+    }
+
+    #right-aside {
+        width: 100%
+    }
+
+    footer {
+        justify-content: space-between;
+    }
+
+    footer ul {
+        width: 100%
+    }
+}

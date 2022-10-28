@@ -1,0 +1,13 @@
+:root {
+    --clr-primary: #f3450c;
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-black-txt: #121731;
+    --clr-grey-txt: #7b7b7b;
+
+    
+    --bx-shadow: 0 0 10px 0px #5e5e5e;
+    --service-bx-shadow: 2px solid #e8271562;
+    --service-hover-bx-shadow:0 0 20px 0px #adadad;
+
+}

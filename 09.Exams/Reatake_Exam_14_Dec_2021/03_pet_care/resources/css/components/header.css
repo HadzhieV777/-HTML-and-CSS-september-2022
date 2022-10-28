@@ -1,0 +1,30 @@
+.header{
+    position: fixed;
+    background: var(--clr-white);
+    width: 100%;
+    box-shadow: var( --bx-shadow);
+    z-index: 1000;
+    
+}
+.header__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.lheader__img{
+    height: 1.7rem;
+}
+.header__menu-list{
+    display: flex;
+    gap: 0 1rem;
+}
+
+.header_menu-item {
+    color: var(--clr-black-txt);
+}
+
+.header__menu-link {
+    text-decoration: none;
+}

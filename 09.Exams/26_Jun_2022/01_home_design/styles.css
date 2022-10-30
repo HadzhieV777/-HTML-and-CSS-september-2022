@@ -1,0 +1,118 @@
+/* @import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+:root {
+    --clr-bg: #f5f5f5;
+    --clr-secondary: #c91d24;
+    --clr-white: #fff;
+    --clr-text: #000018;
+}
+
+*,
+*::before,
+*::after {
+    font-family: "Courgette", cursive;
+    font: Courgette;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: var(--clr-bg);
+}
+
+img {
+    width: 290px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 1.9rem;
+}
+
+.header>* {
+    align-self: center;
+}
+
+.header .heading-sub {
+    color: var(--clr-secondary);
+    text-align: end;
+    width: 210px;
+}
+
+.cards {
+    display: flex;
+    gap: 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cards-container {
+    background-color: var(--clr-white);
+    border-radius: 15px;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-items: space-around;
+}
+
+
+.card .card-title {
+    margin: .5rem 0;
+}
+
+.card .divider {
+    background-color: var(--clr-secondary);
+    height: .1rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.card .card-desc {
+    height: 6rem;
+    font-size: 1rem
+}
+
+.card .card-more {
+    color: var(--clr-text);
+    font-size: 1rem;
+}
+
+.card .card-more span {
+    background-color: var(--clr-secondary);
+    font-weight: bold;
+    padding: 0 .3rem;
+    color: var(--clr-white);
+    border-radius: 50%;
+    font-size: 1.1rem
+}

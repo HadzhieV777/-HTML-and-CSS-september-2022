@@ -1,0 +1,84 @@
+:root {
+    --clr-white: #fff;
+    --clr-bg: #f6f8f9;
+    --clr-btn: #786eff;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    max-width: 1030px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1.2rem;
+    gap: 3rem;
+}
+
+.section .main-img {
+    width: 40%;
+}
+
+.section .title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section .title-container .sub {
+    font-size: .6rem;
+    margin-bottom: .5rem;
+}
+
+.section .title-container .title {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.section .desc {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.section .btn-container .btn {
+    padding: .7rem 1rem;
+    font-size: .9rem;
+    border-radius: .2rem;
+    font-weight: bold;
+}
+
+.section .btn-container .btn.purple {
+    background-color: var(--clr-btn);
+    border-color: var(--clr-btn);
+    color: var(--clr-white);
+}
+
+
+.section .btn-container .btn.opaq {
+    margin-left: .4rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .section .title-container .sub {
+        font-size: .9rem;
+    }
+    
+    .section .title-container .title {
+        font-size: 3rem;
+    }
+
+    .section .desc {
+        font-size: 1.4rem;
+    }
+    
+    .section .btn-container .btn {
+        font-size: 1.2rem;
+    }
+}

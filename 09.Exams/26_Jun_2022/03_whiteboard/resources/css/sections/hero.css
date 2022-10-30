@@ -1,0 +1,131 @@
+#hero {
+    height: 70vh;
+    position: relative;
+    padding: 0px 2rem;
+    color: var(--clr-white);
+}
+
+#hero .hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+#hero .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.4) 30%,
+            rgba(0, 0, 0, 0.4) 70%,
+            rgba(0, 0, 0, 0.8) 100%);
+}
+
+#hero .content {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+#hero .content .title {
+    margin-bottom: 1.6rem;
+}
+
+#hero .content .desc {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hero .hero-btn {
+    border: none;
+    color: var(--clr-white);
+    background-color: var(--clr-green-components);
+    padding: .2rem .8rem;
+    font-weight: bold;
+    border-radius: .3rem;
+}
+
+#hero .hero-btn:hover {
+    border: .2rem solid var(--clr-white);
+    background-color: unset;
+    cursor: pointer;
+
+}
+
+#hero .link {
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+#hero .icon {
+    background-color: var(--clr-white);
+    border-radius: 50%;
+    padding: 0 .2rem;
+    font-size: .8rem;
+    margin-left: .5rem;
+    color: rgba(0, 0, 0, 0.75)
+}
+
+@media screen and (max-width: 768px) {
+    #hero .content .title {
+        font-size: 2.1rem
+    }
+
+    #hero .content .desc {
+        font-size: 1.2rem
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #hero .content .title {
+        font-size: 2.9rem
+    }
+
+    #hero .content .desc {
+        font-size: 1.5rem
+    }
+
+
+    #hero .hero-btn {
+        padding: .4rem 1.4rem;
+        font-size: 1.1rem;
+    }
+
+    #hero .link {
+        font-size: 1.2rem
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #hero .content .title {
+        font-size: 2.9rem
+    }
+
+    #hero .content .desc {
+        font-size: 1.5rem
+    }
+
+    #hero .hero-btn {
+        padding: .5rem 1.6rem;
+        font-size: 1.4rem;
+    }
+
+    #hero .link {
+        font-size: 1.4rem
+    }
+}

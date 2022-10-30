@@ -1,0 +1,68 @@
+#about .about-content {
+    margin: 1rem 1rem 2rem 2rem
+}
+
+#about .title--section {
+    font-size: 1.7rem;
+}
+
+#about .desc {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+#about .about-benefit {
+    padding: .5rem;
+
+}
+
+
+#about .about-benefit i {
+    font-size: 1.3rem;
+    color: var(--clr-green-components);
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #about .title--section {
+        font-size: 1.5rem;
+    }
+
+    #about .desc {
+        font-size: .8rem;
+    }
+
+    #about .about-benefit {
+        font-size: .8rem;
+    }
+
+
+    #about .about-benefit i {
+        font-size: .9rem;
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    #about .title--section {
+        font-size: 3rem;
+    }
+
+    #about .desc {
+        font-size: 1.7rem;
+    }
+
+    #about .about-benefit {
+        font-size: 1.5rem;
+    }
+
+    #about .about-benefit i {
+        font-size: 1.5rem;
+    }
+
+    #about .section-img {
+        width: 52%;
+    }
+
+}

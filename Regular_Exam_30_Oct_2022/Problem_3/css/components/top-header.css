@@ -1,0 +1,18 @@
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    padding: .6rem 2rem;
+}
+
+.container i {
+    margin: .2rem
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        font-size: 1.2rem
+    }
+}

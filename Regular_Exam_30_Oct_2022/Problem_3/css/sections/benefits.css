@@ -1,0 +1,22 @@
+#benefits .benefits-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+}
+
+#benefits .benefit{
+    width: 20%;
+    margin: 0 auto;
+}
+
+#benefits .benefit .benefit-img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#benefits .benefit .benefit-title{
+    color: var(--clr-red-components);
+    margin: .5rem;
+}
+

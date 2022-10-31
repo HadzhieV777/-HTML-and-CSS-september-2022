@@ -1,0 +1,20 @@
+#team .team-member {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#team {
+    background-color: var(--clr-gray-section);
+}
+
+#team .title {
+    padding-top: 4rem
+}
+
+#team .team-role {
+    color: var(--clr-red-components)
+}
+
+#team .member-img {
+    padding-bottom: 1rem;
+}

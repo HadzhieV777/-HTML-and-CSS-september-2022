@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+    .left-to-right {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* center article */
+    main .left-to-right article {
+        border-radius: 10rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding: 2.5rem;
+        height: 60%
+    }
+
+    /* Remove btns */
+    main .left-to-right article button,
+    body>main:nth-child(1)>section:nth-child(2)>article:nth-child(1)>button:nth-child(3) {
+        display: none;
+    }
+
+    /* Change flex directions and center elements*/
+    main section:nth-child(2),
+    main section:nth-child(4) {
+        flex-direction: column;
+        margin: 0px auto;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    /* Adjust form */
+    form {
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    section form label input,
+    section form textarea {
+        width: 100%;
+    }
+
+    section form label {
+        display: flex;
+    }
+
+    /* Align form and Previous exp section */
+    main section:nth-child(2) article,
+    main section:nth-child(4) article {
+        align-items: center;
+    }
+
+}

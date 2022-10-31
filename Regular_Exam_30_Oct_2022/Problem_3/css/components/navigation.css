@@ -1,0 +1,16 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    left: 0;
+    top: 0;
+}
+
+.nav-container .nav-element {
+    margin: .5rem;
+}
+
+.nav-container .nav-element .nav-link{
+    color: var(--clr-white);
+}
+

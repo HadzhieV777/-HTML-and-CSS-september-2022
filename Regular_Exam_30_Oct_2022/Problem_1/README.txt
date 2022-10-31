@@ -1,0 +1,1 @@
+Responsive for 1024px and 1440px resolution

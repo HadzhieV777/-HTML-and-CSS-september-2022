@@ -1,0 +1,53 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+
+
+@import url("reset.css");
+@import url("variables.css");
+
+@import url("components/top-header.css");
+@import url("components/navigation.css");
+
+@import url("sections/hero.css");
+@import url("sections/benefits.css");
+@import url("sections/team.css");
+
+@import url("components/footer.css");
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.section .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section .underliner {
+    background-color: var(--clr-red-components);
+    width: 5%;
+    height: 3px;
+    margin-bottom: 3rem;
+}
+
+#benefits, #team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team .team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+}
+
+#team, #benefits  {
+    padding-bottom: 3rem;
+}
